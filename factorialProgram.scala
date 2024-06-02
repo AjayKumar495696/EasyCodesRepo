@@ -4,10 +4,10 @@ object factorialProgramme {
     println(s"Enter number a :")
     println(factorial(a))
 
-    def factorial(n:Int):Int={
-      if (n == 1) 1
+    def factorial(k:Int):Int={
+      if (k == 1) 1
       else {
-        n * factorial(n-1)
+        k * factorial(k-1)
       }
     }
 
